@@ -1,0 +1,19 @@
+.profile-picture-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.profile-picture {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #00adb5;
+  box-shadow: 0 4px 15px rgba(0, 173, 181, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+  transform: scale(1.05);
+}
